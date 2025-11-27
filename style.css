@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+    line-height: 1.5;
+    /* 
+       Melhora a legibilidade geral do site:
+       - Linha mais alta facilita leitura.
+       - Atende WCAG 1.4.8 sobre blocos de texto mais confortáveis.
+    */
+}
+
+/* ==========================
+   TOPO
+========================== */
+#topo {
+    width: 100%;
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png);
+    text-indent: -3000px;
+    /* 
+       Ocultação visual do texto mantendo acessibilidade:
+       - O texto segue presente no HTML.
+       - Leitores de tela continuam identificando corretamente.
+       - Atende WCAG 1.1.1 (Non-text Content).
+    */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a, button {
+    padding: 6px 8px;
+    cursor: pointer;
+    /* 
+       Cursor pointer melhora a percepção de clicável.
+       WCAG 2.5.5 – Alvo de ponteiro perceptível.
+    */
+}
+
+
+#topo ul {
+    background: #b10333;
+    float: left;
+    margin-top: 30px;
+}
+
+#topo ul li {
+    text-align: center;
+    float: left;
+}
+
+#topo ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 0.5em 1.0em;
+    font-size: 0.9em;
+    line-height: 2.1em;
+    background: url(/imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul li a:hover,
+#topo ul li a:focus {
+    color: #f0f0f0;
+    /* 
+       Mantém foco perceptível para navegação por teclado.
+       WCAG 2.4.7 (Focus Visible)
+    */
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+/* ==========================
+   NAVEGAÇÃO ATIVA
+========================== */
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: default;
+    /* 
+       Cursor removido para reforçar que o item atual não é clicável.
+       WCAG 3.2.3 – Consistência de navegação.
+    */
+}
+
+/* ==========================
+   CONTAINER PRINCIPAL
+========================== */
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+/* 
+   Layout com flex no conteúdo:
+   - Preserva ordem semântica.
+   - Ajuda navegação assistiva.
+   - WCAG 1.3.2 (Significado na estrutura).
+*/
+#conteudo {
+    display: flex;
+    gap: 15px;
+    margin-top: 65px;
+}
+
+/* 
+   A ordem visual é alterada sem afetar a ordem de leitura.
+   Uso correto de "order".
+*/
+#lateral {
+    width: 180px;
+    order: -1; 
+}
+
+#primario {
+    width: 270px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+}
+
+#secundario {
+    width: 270px;
+}
+
+/* ==========================
+   CAIXAS DE CONTEÚDO
+========================== */
+.caixa {
+    margin: 10px 0;
+    padding: 5px 0;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #294c71;
+    padding: 5px;
+    border-left: 6px solid #b10333;
+    background: #fff;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover,
+#lateral ul a:focus {
+    color: #a1a1a1;
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 21px;
+    /* 
+       Hover e focus iguais evitam discrepâncias entre mouse e teclado.
+       WCAG 2.5.3 – Consistência de interação.
+    */
+}
+
+/* ==========================
+   FORMULÁRIOS
+========================== */
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    font-size: 0.9em;
+    padding: 5px;
+    width: 90%;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    margin: 4px 0;
+}
+
+/* ==========================
+   IMAGENS E ELEMENTOS
+========================== */
+img.foto-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3.destaque {
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: 5px;
+    background-color: #870529;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+/* ==========================
+   LISTA DE NOTÍCIAS
+========================== */
+#lista-noticias li {
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 2px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin-right: 5px;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+}
+
+#lista-noticias li h3 {
+    font-size: 0.9em;
+    color: #294c71;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#lista-noticias li p {
+    font-size: 0.8em;
+    color: #333;
+    line-height: 1.4em;
+}
+
+/* ==========================
+   ESTILO EXCLUSIVO DO brasil.html
+========================== */
+body.brasil #lista-noticias {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body.brasil #lista-noticias li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+body.brasil #lista-noticias li img {
+    width: 80px;
+    height: auto;
+}
+
+body.brasil #lista-noticias li h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+body.brasil #lista-noticias li p {
+    margin: 0;
+    font-size: 13px;
+}
+
+body.brasil #lista-noticias li a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================
+   RODAPÉ
+========================== */
+#container-rodape,
+body.brasil #rodape,
+body.internacional #rodape {
+    background: #294c71;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* ==========================
+   LINKS
+========================== */
+a {
+    color: #870529;
+    text-decoration: none;
+}
+
+/* ==========================
+   ACESSIBILIDADE – FOCUS VISÍVEL
+========================== */
+a:focus,
+button:focus,
+input:focus {
+    outline: none; /* Reset */
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 3px solid #ffbf47;
+    outline-offset: 4px;
+    border-radius: 4px;
+    /* 
+       O foco aparece APENAS quando navegado por teclado:
+       - Não incomoda usuários de mouse.
+       - Atende WCAG 2.4.7 (Focus Visible)
+       - Atende WCAG 2.5.7 (target size)
+    */
+}
+
+/* ==========================
+   SKIP LINK
+========================== */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #b10333;
+    color: #fff;
+    padding: 10px 15px;
+    z-index: 999;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+/*
+   Skip Link:
+   - Permite saltar navegação repetida.
+   - Essencial para leitores de tela e teclado.
+   - Atende WCAG 2.4.1 (Bypass Blocks).
+*/
+
+/* ==========================
+   RESPONSIVO
+========================== */
+@media (max-width: 768px) {
+    #conteudo {
+        flex-direction: column;
+    }
+
+    #lateral,
+    #primario,
+    #secundario {
+        width: 100%;
+        order: initial;
+    }
+}
+
+/* ==========================
+   UTILITÁRIOS
+========================== */
+.mt-10 { margin-top: 10px; }
+.mb-20 { margin-bottom: 20px; }
+
+
+#btn-contraste {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #000;
+    color: #fff;
+    padding: 12px 18px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 9999;
+    font-size: 16px;
+}
+
+#btn-contraste[aria-pressed="true"] {
+    background: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.contraste * {
+    background: #000 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.contraste a {
+    color: #ffea00 !important; /* amarelo acessível */
+}
+
+.contraste img {
+    filter: grayscale(100%) brightness(150%) contrast(200%);
+}
+/* 
+   Modo Alto Contraste:
+   - Melhora visibilidade para usuários com baixa visão.
+   - Atende WCAG 1.4.3 (Contrast Minimum) e 1.4.11 (Non-text Contrast).
+*/
