@@ -1,6 +1,14 @@
-
 📰 Portal de Notícias — Acessível, Responsivo e Moderno
-<div align="center"> <img src="https://img.shields.io/badge/Status-EM%20DESENVOLVIMENTO-red?style=for-the-badge&logo=code"/> <img src="https://img.shields.io/badge/Progresso-Ativo-brightgreen?style=for-the-badge&logo=github"/> <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge"/> <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Acessibilidade-WCAG%202.1-green?style=for-the-badge"/> </div> <br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Status-EM%20DESENVOLVIMENTO-red?style=for-the-badge&logo=code"/>
+  <img src="https://img.shields.io/badge/Progresso-Ativo-brightgreen?style=for-the-badge&logo=github"/>
+  <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Acessibilidade-WCAG%202.1-green?style=for-the-badge"/>
+</div>
+<br>
 🚧 Estado Atual
 
 🔥 Projeto em desenvolvimento ativo — páginas, layout e acessibilidade estão sendo ajustados.
@@ -65,7 +73,7 @@ Implementado
 
 
 🛠 Tecnologias
-<p align="left"> <img src="https://img.shields.io/badge/HTML5-ffffff?style=for-the-badge&logo=html5&logoColor=orange"> <img src="https://img.shields.io/badge/CSS3-ffffff?style=for-the-badge&logo=css3&logoColor=007bff"> </p>
+<<p align="left"> <img src="https://img.shields.io/badge/HTML5-ffffff?style=for-the-badge&logo=html5&logoColor=orange"> <img src="https://img.shields.io/badge/CSS3-ffffff?style=for-the-badge&logo=css3&logoColor=007bff"> <img src="https://img.shields.io/badge/JavaScript-ffffff?style=for-the-badge&logo=javascript&logoColor=F7DF1E"> </p>
 👩‍💻 Autora
 
 Fernanda Fátima
