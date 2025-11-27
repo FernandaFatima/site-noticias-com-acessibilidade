@@ -13,37 +13,44 @@
 
 🔥 Projeto em desenvolvimento ativo — páginas, layout e acessibilidade estão sendo ajustados.
 
-✨ O que Já Está Pronto
+✔ O que Já Está Pronto
+| Funcionalidade                       | Status      |
+| ------------------------------------ | ----------- |
+| Estrutura HTML5 semântica            | ✔ Concluído |
+| Menu com estado ativo                | ✔ Concluído |
+| Páginas Home, Brasil e Internacional | ✔ Concluído |
+| Skip link funcional                  | ✔ Concluído |
+| Modo Alto Contraste                  | ✔ Concluído |
+| Foco acessível (outline dourado)     | ✔ Concluído |
+| Roles ARIA aplicados                 | ✔ Concluído |
+| Texto “visually hidden” acessível    | ✔ Concluído |
 
-✔ Estrutura HTML5 semântica
-✔ Menu com estado ativo
-✔ Páginas: Home, Brasil e Internacional
-✔ Skip link funcional
-✔ Modo Alto Contraste
-✔ Foco acessível (outline dourado)
-✔ Roles ARIA
-✔ Texto visually hidden
+🛠 Em Desenvolvimento
+| Recurso                                           | Status          |
+| ------------------------------------------------- | --------------- |
+| Responsividade avançada                           | 🔄 Em andamento |
+| Conteúdos e textos jornalísticos                  | 🔄 Em andamento |
+| Revisão total de contraste por página             | 🔄 Em andamento |
+| Novas editorias (Economia, Saúde, Ciência, Fotos) | 🔄 Em andamento |
 
-🛠️ Em Desenvolvimento
-📱 Responsividade avançada
-📰 Conteúdos e textos
-🎨 Contraste revisado página a página
-➕ Novas editorias (Economia, Saúde, Ciência, Fotos)
 🚀 Próximas Features
+Futuro Recurso	Descrição
+| Futuro Recurso          | Descrição                                            |
+| ----------------------- | ---------------------------------------------------- |
+| 🔍 Página de busca      | Mecanismo para localizar matérias                    |
+| 📝 Modo de leitura      | Fontes maiores + espaçamento ampliado                |
+| 🎙 Navegação por voz    | Função experimental para acessibilidade              |
+| 🎭 Animações acessíveis | Respeitando preferência do usuário (“reduce motion”) |
+| 🌑 Tema Dark completo   | Interface totalmente repensada em dark mode          |
 
-🔍 Página de busca
-📝 Modo de leitura (fontes maiores + espaçamento)
-🎙 Navegação por voz (experimental)
-🎭 Animações acessíveis
-🌑 Tema Dark completo do portal
-🎨 Identidade Visual (Dark)
-#0d0d0d   #1a1a1a   #2b2b2b   #7a0a0a   #0a4aff
+🎨 Identidade Visual (Dark Mode Planejado)
+| Elemento          | Valores                                    |
+| ----------------- | ------------------------------------------ |
+| Paleta principal  | `#0d0d0d` · `#1a1a1a` · `#2b2b2b`          |
+| Cores de destaque | Bordô `#7a0a0a` · Azul jornal `#0a4aff`    |
+| Estilo            | Minimalista · Editorial · Alto contraste   |
+| Acessibilidade    | Foco dourado WCAG AAA · Tipografia legível |
 
-
-Minimalista e editorial
-Alto contraste
-Destaques em bordô e azul jornal
-Foco dourado WCAG AAA
 
 ♿ Acessibilidade (A11Y)
 <p align="center"> <img src="https://img.shields.io/badge/A11Y-Focus%20Visible-ffaa00?style=flat-square"> <img src="https://img.shields.io/badge/ARIA-Roles%20Aplicados-00bfa6?style=flat-square"> <img src="https://img.shields.io/badge/Teclado-Navegação%20Total-0077ff?style=flat-square"> </p>
