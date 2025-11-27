@@ -1,124 +1,17 @@
 
 📰 Portal de Notícias — Acessível, Responsivo e Moderno
 <div align="center"> <img src="https://img.shields.io/badge/Status-EM%20DESENVOLVIMENTO-red?style=for-the-badge&logo=code"/> <img src="https://img.shields.io/badge/Progresso-Ativo-brightgreen?style=for-the-badge&logo=github"/> <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge"/> <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Acessibilidade-WCAG%202.1-green?style=for-the-badge"/> </div> <br>
-📰 Portal de Notícias — Acessível, Responsivo e em Evolução
-
-Este repositório contém o desenvolvimento de um portal de notícias moderno com foco em acessibilidade, seguindo padrões semânticos, WCAG 2.1 e boas práticas profissionais.
-O projeto está em constante progresso, recebendo ajustes, novas páginas e melhorias estruturais diariamente.
-
-🚧 Status do Projeto
-
-🔥 Desenvolvimento ativo — não é a versão final.
-Várias partes do layout, conteúdo e acessibilidade ainda estão sendo refinadas.
-
-✔ Concluído até agora
-
-Estrutura HTML semântica
-
-Navegação principal com estado ativo
-
-Páginas Brasil e Internacional
-
-Skip link funcional
-
-Modo Alto Contraste
-
-Flexbox aplicado sem prejudicar leitura semântica
-
-Melhorias de acessibilidade: roles, foco visível, texto oculto acessível
-
-🔄 Em desenvolvimento
-
-Responsividade avançada
-
-Revisão de textos e conteúdos
-
-Ajustes de contraste total em todas as páginas
-
-Expansão de editorias (Economia, Saúde, Ciência, Fotos)
-
-🧭 Próximas entregas
-
-Página de busca
-
-Modo Leitura (texto maior + espaçamento)
-
-Suporte a Navegação por Voz (experimental)
-
-Animações acessíveis (redução de movimento opcional)
-
-🌑 Tema do Projeto
-
-Este portal segue uma identidade visual leve e jornalística, mas com suporte para:
-
-🌓 Modo Dark (planejado)
-
-Esse README já adota a estética dark que também será aplicada no futuro ao portal:
-
-Tons neutros (#0d0d0d, #1a1a1a, #2b2b2b)
-
-Destaques em bordô e azul-jornal
-
-Foco visível dourado, seguindo padrões WCAG AAA
-
-Contraste elevado e tipografia legível
-
-🧩 Estrutura
-/
+📰 Portal de Notícias — Acessível, Responsivo e Moderno ✨Este repositório apresenta o desenvolvimento de um Portal de Notícias de alta qualidade, focado em acessibilidade (WCAG 2.1), semântica web e design responsivo. O projeto está em constante evolução, adotando as melhores práticas profissionais.🚀 Status do ProjetoStatusProgressoTecnologiasAcessibilidadeEM DESENVOLVIMENTOAtivoHTML5 / CSS3WCAG 2.1🔥 Atenção: Desenvolvimento ativo. Esta não é a versão final. Layout, conteúdo e acessibilidade estão sendo refinados continuamente.✔️ Recursos ConcluídosFoco em Semântica e Acessibilidade Inicial:Estrutura Semântica: Uso correto de tags como <header>, <main>, <nav>, <section> e <footer>.Navegação: Navegação principal funcional com indicador de estado ativo.Páginas: Editorias Brasil e Internacional prontas.A11Y (Acessibilidade):Skip Link (skip to content) funcional.Modo Alto Contraste implementado.Uso de Roles ARIA, foco visível acessível e texto oculto para leitores de tela.Layout Flexbox aplicado sem comprometer a ordem de leitura.🔄 Próximos Passos e Itens em Desenvolvimento🚧 Em Desenvolvimento (Foco Atual)Responsividade Avançada: Refinando a adaptação total para diversos dispositivos.Conteúdo: Revisão detalhada de textos e conteúdos.Acessibilidade: Ajuste total de contraste em todas as páginas e testes com NVDA e VoiceOver.Expansão: Início das editorias Economia, Saúde, Ciência e Fotos.🧭 Próximas Entregas (Planejamento)Página de Busca otimizada.Modo Leitura: Funcionalidade para aumentar texto e espaçamento.Suporte a Navegação por Voz (funcionalidade experimental).Animações Acessíveis: Redução de movimento opcional para usuários sensíveis.🎨 Design e Identidade VisualO portal adota uma estética leve e jornalística, com foco em legibilidade e contraste.🌑 Modo Dark (Planejado)O design atual do README reflete a futura identidade do Modo Dark do portal:Cores Neutras: #0d0d0d, #1a1a1a, #2b2b2b.Destaques: Tons de bordô e azul-jornal.Foco Visível: Dourado, aderindo aos padrões WCAG AAA de contraste.Tipografia: Alta legibilidade e contraste elevado.📁 Estrutura do Repositório/
 ├── index.html
 ├── brasil.html
 ├── internacional.html
-├── economia.html       ← em breve
-├── saude.html          ← em breve
-├── ciencia.html        ← em breve
-├── fotos.html          ← em breve
+├── economia.html      (← em breve)
+├── saude.html         (← em breve)
+├── ciencia.html       (← em breve)
+├── fotos.html         (← em breve)
 │
 ├── css/
 │   └── style.css
 │
 └── imagens/
-
-♿ Acessibilidade (A11Y) — Pilar Central do Projeto
-
-O portal está sendo desenvolvido com atenção especial às boas práticas:
-
-Implementado
-
-Skip to content
-
-Foco visível: outline acessível
-
-Roles ARIA nos componentes principais
-
-Navegação por teclado fluida
-
-Semântica HTML real (header, main, nav, section, footer)
-
-Texto oculto apenas visualmente (screen-reader-friendly)
-
-Em evolução
-
-Testes com NVDA e VoiceOver
-
-Anúncio de mudanças dinâmicas
-
-Revisão de hierarquia de títulos
-
-Alternância total entre modo normal e alto contraste
-
-🛠 Tecnologias
-
-HTML5
-
-CSS3
-
-WCAG 2.1
-
-Semântica Web & Boas práticas UX
-
-👩‍💻 Autora
-
-Fernanda Fátima
-Desenvolvedora em constante evolução, focada em criar projetos reais aplicando acessibilidade, responsividade e código limpo.
-
-🔗 Aberta a contribuições quando o projeto atingir uma versão estável.
+🛠 Tecnologias ChaveHTML5CSS3WCAG 2.1 (Web Content Accessibility Guidelines)Semântica Web e Boas Práticas UX👩‍💻 AutoraFernanda FátimaDesenvolvedora focada em criar projetos reais com ênfase em acessibilidade, responsividade e código limpo.Contribuições: O projeto estará aberto para contribuições externas após atingir uma versão estável.
