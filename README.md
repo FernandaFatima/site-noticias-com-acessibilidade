@@ -45,21 +45,6 @@ Alto contraste
 Destaques em bordô e azul jornal
 Foco dourado WCAG AAA
 
-📂 Estrutura
-/
-├── index.html
-├── brasil.html
-├── internacional.html
-├── economia.html      ← em breve
-├── saude.html         ← em breve
-├── ciencia.html       ← em breve
-├── fotos.html         ← em breve
-│
-├── css/
-│   └── style.css
-│
-└── imagens/
-
 ♿ Acessibilidade (A11Y)
 <p align="center"> <img src="https://img.shields.io/badge/A11Y-Focus%20Visible-ffaa00?style=flat-square"> <img src="https://img.shields.io/badge/ARIA-Roles%20Aplicados-00bfa6?style=flat-square"> <img src="https://img.shields.io/badge/Teclado-Navegação%20Total-0077ff?style=flat-square"> </p>
 
