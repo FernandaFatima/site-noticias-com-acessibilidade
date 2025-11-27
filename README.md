@@ -1,93 +1,43 @@
 
 📰 Portal de Notícias — Acessível, Responsivo e Moderno
 <div align="center"> <img src="https://img.shields.io/badge/Status-EM%20DESENVOLVIMENTO-red?style=for-the-badge&logo=code"/> <img src="https://img.shields.io/badge/Progresso-Ativo-brightgreen?style=for-the-badge&logo=github"/> <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge"/> <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Acessibilidade-WCAG%202.1-green?style=for-the-badge"/> </div> <br>
-Um portal de notícias desenvolvido com foco total em acessibilidade (WCAG 2.1), semântica real, responsividade e melhores práticas profissionais.
-O projeto está em desenvolvimento ativo, recebendo melhorias, novos recursos e ajustes diários.
+🚧 Estado Atual
 
-🚧 Status do Projeto — Em Progresso
+🔥 Projeto em desenvolvimento ativo — páginas, layout e acessibilidade estão sendo ajustados.
 
-⚠️ Este repositório não representa a versão final do portal.
-Várias partes do layout, acessibilidade e conteúdo ainda estão sendo aprimoradas.
+✨ O que Já Está Pronto
 
-✔️ Concluído até Agora
+✔ Estrutura HTML5 semântica
+✔ Menu com estado ativo
+✔ Páginas: Home, Brasil e Internacional
+✔ Skip link funcional
+✔ Modo Alto Contraste
+✔ Foco acessível (outline dourado)
+✔ Roles ARIA
+✔ Texto visually hidden
 
-Estrutura HTML5 semântica
+🛠️ Em Desenvolvimento
+📱 Responsividade avançada
+📰 Conteúdos e textos
+🎨 Contraste revisado página a página
+➕ Novas editorias (Economia, Saúde, Ciência, Fotos)
+🚀 Próximas Features
 
-Navegação principal com estado ativo
+🔍 Página de busca
+📝 Modo de leitura (fontes maiores + espaçamento)
+🎙 Navegação por voz (experimental)
+🎭 Animações acessíveis
+🌑 Tema Dark completo do portal
+🎨 Identidade Visual (Dark)
+#0d0d0d   #1a1a1a   #2b2b2b   #7a0a0a   #0a4aff
 
-Páginas Brasil e Internacional
 
-Skip Link totalmente funcional
-
-Modo de Alto Contraste
-
-Layout com Flexbox sem perder semântica
-
-Melhoria de acessibilidade:
-
-Roles ARIA
-
-Foco visível acessível
-
-Texto oculto apenas visualmente
-
-🔄 Em Desenvolvimento
-
-Responsividade avançada
-
-Revisão e melhora dos conteúdos
-
-Ajustes globais de contraste
-
-Novas editorias:
-
-Economia
-
-Saúde
-
-Ciência
-
-Fotos
-
-🧭 Próximas Entregas
-
-Página de Busca integrada
-
-Modo Leitura (texto maior + espaçamento)
-
-Suporte experimental a Navegação por Voz
-
-Animações acessíveis (preferência por reduzir movimento)
-
-Modo Dark oficial do portal
-
-🌑 Tema Visual (Dark • Jornalístico • Profissional)
-
-Este README já segue a estética planejada para o tema Dark do portal:
-
-🎨 Paleta
-
-Preto suave: #0d0d0d
-
-Cinza escuro: #1a1a1a
-
-Cinza neutro: #2b2b2b
-
-Destaques bordô e azul editorial
-
+Minimalista e editorial
+Alto contraste
+Destaques em bordô e azul jornal
 Foco dourado WCAG AAA
 
-🖥 Princípios
-
-Alto contraste
-
-Tipografia limpa
-
-Hierarquia clara
-
-Interface minimalista
-
-🧩 Estrutura do Projeto
+📂 Estrutura
 /
 ├── index.html
 ├── brasil.html
@@ -102,47 +52,26 @@ Interface minimalista
 │
 └── imagens/
 
-♿ Acessibilidade (A11Y) — Pilar Central
-✓ Implementado
+♿ Acessibilidade (A11Y)
+<p align="center"> <img src="https://img.shields.io/badge/A11Y-Focus%20Visible-ffaa00?style=flat-square"> <img src="https://img.shields.io/badge/ARIA-Roles%20Aplicados-00bfa6?style=flat-square"> <img src="https://img.shields.io/badge/Teclado-Navegação%20Total-0077ff?style=flat-square"> </p>
 
-Skip to Content
+Implementado
+- Skip to content
+- Navegação por teclado
+- Roles ARIA
+- Foco em alto contraste
+- Texto acessível para leitores de tela
 
-Foco visível e acessível
 
-Roles ARIA aplicados
 
-Navegação por teclado fluida
-
-Semântica completa: header, main, nav, section, footer
-
-Texto visually-hidden compatível com leitores de tela
-
-🔧 Em Evolução
-
-Testes com NVDA e VoiceOver
-
-Anúncio de mudanças dinâmicas
-
-Revisão completa de heading structure
-
-Alternância total entre temas (Normal / Alto Contraste / Futuro Dark)
-
-🛠 Tecnologias Utilizadas
-
-HTML5
-
-CSS3
-
-Princípios de WCAG 2.1
-
-Semântica e boas práticas UX
-
+🛠 Tecnologias
+<p align="left"> <img src="https://img.shields.io/badge/HTML5-ffffff?style=for-the-badge&logo=html5&logoColor=orange"> <img src="https://img.shields.io/badge/CSS3-ffffff?style=for-the-badge&logo=css3&logoColor=007bff"> </p>
 👩‍💻 Autora
 
 Fernanda Fátima
-Desenvolvedora em evolução contínua, com foco em acessibilidade, responsividade e código limpo.
-💡 Sempre criando projetos reais e funcionais.
+Desenvolvedora focada em acessibilidade, UX e código limpo.
+Sempre evoluindo — sempre construindo.
 
 🔗 Contribuições
 
-Serão abertas após o projeto atingir sua primeira versão estável.
+Serão abertas quando o projeto atingir a primeira versão estável.
