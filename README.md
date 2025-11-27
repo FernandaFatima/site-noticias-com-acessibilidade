@@ -1,65 +1,81 @@
+🌑 Portal de Notícias — Projeto em Desenvolvimento
+<div align="center">
+
+
+
+
+
+
+
+
+
+
+</div>
 📰 Portal de Notícias — Acessível, Responsivo e Moderno
 <div align="center"> <img src="https://img.shields.io/badge/Status-EM%20DESENVOLVIMENTO-red?style=for-the-badge&logo=code"/> <img src="https://img.shields.io/badge/Progresso-Ativo-brightgreen?style=for-the-badge&logo=github"/> <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge"/> <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Acessibilidade-WCAG%202.1-green?style=for-the-badge"/> </div> <br>
-📌 Sobre o Projeto
+📰 Portal de Notícias — Acessível, Responsivo e em Evolução
 
-Este é um portal de notícias acessível e responsivo, criado para estudos e prática real de HTML, CSS, semântica e acessibilidade.
-O projeto está em desenvolvimento, sendo atualizado com melhorias visuais, estruturais e de acessibilidade.
+Este repositório contém o desenvolvimento de um portal de notícias moderno com foco em acessibilidade, seguindo padrões semânticos, WCAG 2.1 e boas práticas profissionais.
+O projeto está em constante progresso, recebendo ajustes, novas páginas e melhorias estruturais diariamente.
 
-⚠️ IMPORTANTE: Este projeto está em progresso ativo.
-Muitas seções, estilos e páginas ainda estão sendo desenvolvidos, ajustados e otimizados.
+🚧 Status do Projeto
 
-📄 Descrição curta:
-Portal de notícias responsivo e acessível, com navegação clara, páginas organizadas e modo alta contraste. Projeto em evolução constante, desenvolvido para treinar HTML, CSS e práticas de acessibilidade.
+🔥 Desenvolvimento ativo — não é a versão final.
+Várias partes do layout, conteúdo e acessibilidade ainda estão sendo refinadas.
 
-✨ Funcionalidades
+✔ Concluído até agora
 
-📱 Layout Responsivo
+Estrutura HTML semântica
 
-🎨 Menu e páginas temáticas por editoria
+Navegação principal com estado ativo
 
-♿ Acessibilidade completa e em progresso
+Páginas Brasil e Internacional
 
-Skip link
+Skip link funcional
 
-Roles ARIA
+Modo Alto Contraste
 
-Alto contraste
+Flexbox aplicado sem prejudicar leitura semântica
 
-Foco visível
+Melhorias de acessibilidade: roles, foco visível, texto oculto acessível
 
-Estrutura semântica
+🔄 Em desenvolvimento
 
-📚 Conteúdo organizado em caixas
+Responsividade avançada
 
-🖼️ Imagens otimizadas
+Revisão de textos e conteúdos
 
-🚧 Status do Desenvolvimento
-🔥 O que já está funcionando
+Ajustes de contraste total em todas as páginas
 
-✔ Estrutura principal
-✔ Cabeçalho e navegação ativa
-✔ Páginas Brasil e Internacional
-✔ Alto contraste
-✔ Flexbox semântico
+Expansão de editorias (Economia, Saúde, Ciência, Fotos)
 
-🛠️ O que está em progresso
+🧭 Próximas entregas
 
-🔄 Ajustes de textos e conteúdo
-🔄 Melhor responsividade
-🔄 Revisão de acessibilidade campo a campo
-🔄 Inserção de mais editorias
+Página de busca
 
-📅 Próximas features
+Modo Leitura (texto maior + espaçamento)
 
- Página de busca
+Suporte a Navegação por Voz (experimental)
 
- Tags por notícia
+Animações acessíveis (redução de movimento opcional)
 
- Animações sutis
+🌑 Tema do Projeto
 
- Modo leitura
+Este portal segue uma identidade visual leve e jornalística, mas com suporte para:
 
-📂 Estrutura do Projeto
+🌓 Modo Dark (planejado)
+
+Esse README já adota a estética dark que também será aplicada no futuro ao portal:
+
+Tons neutros (#0d0d0d, #1a1a1a, #2b2b2b)
+
+Destaques em bordô e azul-jornal
+
+Foco visível dourado, seguindo padrões WCAG AAA
+
+Contraste elevado e tipografia legível
+
+🧩 Estrutura
 /
 ├── index.html
 ├── brasil.html
@@ -68,40 +84,53 @@ Estrutura semântica
 ├── saude.html          ← em breve
 ├── ciencia.html        ← em breve
 ├── fotos.html          ← em breve
+│
 ├── css/
-│   └── estilo.css
+│   └── style.css
+│
 └── imagens/
 
-🦾 Acessibilidade (foco principal em andamento)
+♿ Acessibilidade (A11Y) — Pilar Central do Projeto
 
-O projeto está sendo construído com prioridade total em acessibilidade real, não só aparência.
+O portal está sendo desenvolvido com atenção especial às boas práticas:
 
-✔ Uso de roles ARIA
-✔ Navegação por teclado funcionando
-✔ Skip links
-✔ Ordem semântica preservada
-✔ Alto contraste via classe
-✔ Foco visível não invasivo
+Implementado
 
-🚧 Aprimoramento contínuo em:
+Skip to content
 
-Hierarquia de headings
+Foco visível: outline acessível
 
-Alternância de contraste em todos os elementos
+Roles ARIA nos componentes principais
 
-Textos descritivos e alternativos
+Navegação por teclado fluida
 
-Testes com leitores de tela
+Semântica HTML real (header, main, nav, section, footer)
 
-🧩 Tecnologias
+Texto oculto apenas visualmente (screen-reader-friendly)
+
+Em evolução
+
+Testes com NVDA e VoiceOver
+
+Anúncio de mudanças dinâmicas
+
+Revisão de hierarquia de títulos
+
+Alternância total entre modo normal e alto contraste
+
+🛠 Tecnologias
 
 HTML5
 
 CSS3
 
-Acessibilidade WCAG 2.1
+WCAG 2.1
+
+Semântica Web & Boas práticas UX
 
 👩‍💻 Autora
 
 Fernanda Fátima
-Desenvolvedora em evolução — construindo projetos reais enquanto aprende e aplica boas práticas.
+Desenvolvedora em constante evolução, focada em criar projetos reais aplicando acessibilidade, responsividade e código limpo.
+
+🔗 Aberta a contribuições quando o projeto atingir uma versão estável.
