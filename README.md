@@ -63,8 +63,6 @@ Implementado
 
 Fernanda Fátima
 Desenvolvedora focada em acessibilidade, UX e código limpo.
-Sempre evoluindo — sempre construindo.
 
 🔗 Contribuições
-
 Serão abertas quando o projeto atingir a primeira versão estável.
