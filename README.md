@@ -1,16 +1,4 @@
-🌑 Portal de Notícias — Projeto em Desenvolvimento
-<div align="center">
 
-
-
-
-
-
-
-
-
-
-</div>
 📰 Portal de Notícias — Acessível, Responsivo e Moderno
 <div align="center"> <img src="https://img.shields.io/badge/Status-EM%20DESENVOLVIMENTO-red?style=for-the-badge&logo=code"/> <img src="https://img.shields.io/badge/Progresso-Ativo-brightgreen?style=for-the-badge&logo=github"/> <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge"/> <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Acessibilidade-WCAG%202.1-green?style=for-the-badge"/> </div> <br>
 📰 Portal de Notícias — Acessível, Responsivo e em Evolução
