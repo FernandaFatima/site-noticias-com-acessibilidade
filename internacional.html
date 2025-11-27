@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias Cidade - Internacional</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Mantém o footer no fim da página -->
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        footer {
+            margin-top: auto;
+            background: #294c71;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Skip Link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 10px;
+            background: #b10333;
+            color: #fff;
+            padding: 10px 15px;
+            z-index: 999;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: top 0.3s ease;
+        }
+        .skip-link:focus {
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body id="duas-colunas" class="internacional">
+    <a href="#conteudo" class="skip-link">Pular para o conteúdo principal</a>
+        <button id="btn-contraste" aria-pressed="false" role="switch">
+    Alto Contraste
+</button>
+
+    <div id="container">
+
+        <!-- TOPO -->
+        <div id="topo" role="banner">
+            <h1 class="logo">Notícias Cidade</h1>
+
+            <ul id="navegacao" role="navigation" aria-label="Menu principal">
+                <li class="primeiro"><a id="home" href="index.html">Home</a></li>
+                <li><a id="brasil" href="brasil.html">Brasil</a></li>
+                <li><a id="internacional" href="internacional.html">Internacional</a></li>
+                <li><a id="economia" href="economia.html">Economia</a></li>
+                <li><a id="saude" href="saude.html">Saúde</a></li>
+                <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
+                <li><a id="fotos" href="fotos.html">Fotos</a></li>
+            </ul>
+        </div>
+
+        <!-- CONTEÚDO -->
+        <div id="conteudo" role="main">
+
+            <!-- COLUNA PRINCIPAL -->
+            <div id="primario">
+
+                <!-- SEÇÃO 1 -->
+                <div class="caixa" role="region" aria-labelledby="ultimas-mundo">
+                    <h2 id="ultimas-mundo">Últimas do Mundo</h2>
+                    <div class="caixa-conteudo">
+
+                        <!-- 1 -->
+                        <div class="item-noticia" style="display: flex; gap: 15px; margin-bottom: 20px;">
+                            <img src="imagens/cidade.jpg" width="110" alt="Cúpula internacional">
+                            <div>
+                                <h3><strong>DIPLOMACIA</strong></h3>
+                                <p>
+                                    Líderes globais se reúnem em uma cúpula histórica para avaliar tratados multilaterais
+                                    e discutir novos modelos de cooperação entre nações. A expectativa é que as decisões
+                                    impactem diretamente políticas externas e acordos estratégicos nos próximos anos.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="item-noticia" style="display: flex; gap: 15px; margin-bottom: 20px;">
+                            <img src="imagens/mundo.jpg" width="110" alt="Tecnologia internacional">
+                            <div>
+                                <h3><strong>TECNOLOGIA MUNDIAL</strong></h3>
+                                <p>
+                                    Empresas globais apresentam sistemas de inteligência artificial capazes de resolver 
+                                    problemas complexos com precisão inédita, abrindo caminho para novas aplicações 
+                                    científicas, industriais e sociais.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="item-noticia" style="display: flex; gap: 15px; margin-bottom: 20px;">
+                            <img src="imagens/taxi.jpg" width="110" alt="Economia mundial">
+                            <div>
+                                <h3><strong>ECONOMIA GLOBAL</strong></h3>
+                                <p>
+                                    Mercados internacionais apresentam alta após novos acordos comerciais firmados 
+                                    entre países do G20, estimulando investimentos e fortalecendo a confiança na 
+                                    estabilidade econômica global.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="item-noticia" style="display: flex; gap: 15px;">
+                            <img src="imagens/doutor.jpg" width="110" height="90" alt="Saúde mundial">
+                            <div>
+                                <h3><strong>SAÚDE INTERNACIONAL</strong></h3>
+                                <p>
+                                    Pesquisadores anunciam avanços promissores no tratamento de doenças raras, reforçando 
+                                    a importância da colaboração científica entre universidades e centros de pesquisa de 
+                                    diferentes países.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ESPECIAIS -->
+                <div class="caixa" role="region" aria-labelledby="reportagens-especiais">
+                    <h2 id="reportagens-especiais">Reportagens Especiais</h2>
+                    <div class="caixa-conteudo">
+
+                        <p style="margin-bottom: 20px;">
+                            Explore análises aprofundadas sobre temas internacionais que estão moldando o cenário 
+                            global. Nesta seção, especialistas avaliam acontecimentos que influenciam a política, 
+                            a economia e o futuro das relações internacionais.
+                        </p>
+
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="#">
+                                    <img src="imagens/tecnologia.jpg" width="80" alt="Inovações globais">
+                                    <h3>Inovações Globais</h3>
+                                    <p>Descobertas científicas recentes prometem transformar a sociedade.</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="imagens/mundo.jpg" width="80" alt="Clima e meio ambiente">
+                                    <h3>Clima e Meio Ambiente</h3>
+                                    <p>Relatórios internacionais alertam para mudanças climáticas aceleradas.</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="imagens/cidade.jpg" width="80" alt="Análise geopolítica">
+                                    <h3>Conflitos e Defesa</h3>
+                                    <p>Especialistas avaliam tensões e estratégias entre nações.</p>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- LATERAL -->
+            <div id="lateral" role="complementary" aria-label="Conteúdo complementar">
+                <div class="caixa">
+                    <h2>Outros Destaques</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="#">Guerras & Conflitos</a></li>
+                            <li><a href="#">Economia Mundial</a></li>
+                            <li><a href="#">Clima & Ambiente</a></li>
+                            <li><a href="#">Tecnologia Global</a></li>
+                            <li><a href="#">Cultura Internacional</a></li>
+                            <li><a href="#">Reportagens Especiais</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+    </div>
+
+    <footer role="contentinfo">
+        <div id="rodape">
+            Copyright Fernanda Fátima © 2025 Notícias Cidade
+        </div>
+    </footer>
+<script>
+    const btn = document.getElementById("btn-contraste");
+    const body = document.body;
+
+    // Carrega preferência salva
+    if (localStorage.getItem("contraste") === "on") {
+        body.classList.add("contraste");
+        btn.setAttribute("aria-pressed", "true");
+    }
+
+    btn.addEventListener("click", () => {
+        const ativo = body.classList.toggle("contraste");
+        btn.setAttribute("aria-pressed", ativo ? "true" : "false");
+
+        // Salvar preferência
+        localStorage.setItem("contraste", ativo ? "on" : "off");
+    });
+</script>
+</body>
+</html>

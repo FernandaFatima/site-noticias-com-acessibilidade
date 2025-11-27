@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">  
+    <!-- Acessibilidade: descrição da página para tecnologias assistivas -->
+    <meta name="description" content="Notícias atualizadas sobre educação, saúde, tecnologia, economia e muito mais.">
+    <!-- Acessibilidade: identifica autoria do conteúdo -->
+    <meta name="author" content="Fernanda Fátima">
+    <!-- SEO + acessibilidade: palavras-chave ajudam buscadores -->
+    <meta name="keywords" content="notícias, brasil, mundo, tecnologia, saúde, economia">
+    <!-- Acessibilidade em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="home">
+
+    <!-- Acessibilidade: link para saltar diretamente ao conteúdo principal usando teclado -->
+    <a href="#conteudo" class="skip-link">Pular para o conteúdo principal</a>
+    <button id="btn-contraste" aria-pressed="false" role="switch">
+    Alto Contraste
+</button>
+
+    <div id="container">
+
+        <!-- Acessibilidade: identifica o topo da página como banner -->
+        <div id="topo" role="banner">
+            <h1 class="logo">Notícias Cidade</h1>
+
+            <ul id="navegacao" role="navigation" aria-label="Menu principal">
+                <li class="primeiro"><a id="home" href="index.html">Home</a></li>
+                <li><a id="brasil" href="brasil.html">Brasil</a></li>
+                <li><a id="internacional" href="internacional.html">Internacional</a></li>
+                <li><a id="economia" href="economia.html">Economia</a></li>
+                <li><a id="saude" href="saude.html">Saúde</a></li>
+                <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
+                <li><a id="fotos" href="fotos.html">Fotos</a></li>
+            </ul>
+        </div>
+
+        <div id="conteudo" role="main">
+
+            <div id="primario" role="region" aria-labelledby="destaque">
+                <div class="caixa">
+                    <h2 id="destaque">Destaque</h2>
+                    <div class="caixa-conteudo">
+                        <h3 class="destaque">Nova Legislação</h3>
+
+                        <!-- Acessibilidade: alt descreve a imagem -->
+                        <img class="foto-principal" src="imagens/educacao.jpg" alt="Martelo de Juiz decretando Lei " width="100%">
+
+                        <p>O governo federal anunciou uma nova legislação que promete reformar o sistema educacional do país, visando melhorar a qualidade do ensino e ampliar o acesso para comunidades carentes.</p>
+
+                        <a href="#">Leia mais!</a>
+                    </div>
+                </div>
+
+                <div class="caixa-mundo" role="region" aria-labelledby="mundo">
+                    <h2 id="mundo">Mundo</h2>
+                    <div class="caixa-conteudo">
+
+                        <ul id="lista-noticias" role="list">
+                            <li><a href="">
+                                <img src="imagens/tecnologia.jpg" width="80" alt="Mesa de escitório com computador e gadgets">
+                                <h3>Tecnologia</h3>
+                                <p>Novas inovações estão transformando setores.</p>
+                            </a></li>
+                        </ul>
+
+                        <ul id="lista-noticias" role="list">
+                            <li><a href="">
+                                <img src="imagens/taxi.jpg" width="80" alt="Vários táxis na rua">
+                                <h3>Trânsito</h3>
+                                <p>Melhorias prometem reduzir congestionamentos</p>
+                            </a></li>
+                        </ul>
+
+                        <ul id="lista-noticias" role="list">
+                            <li><a href="">
+                                <img src="imagens/doutor.jpg" width="80" alt="Imagem de um Médico">
+                                <h3>Medicina</h3>
+                                <p>Avanços em tratamentos revolucionam cuidados.</p>
+                            </a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="secundario" role="region" aria-labelledby="ultimas-noticias">
+                <div class="caixa">
+                    <h2 id="ultimas-noticias">Últimas Notícias</h2>
+                    <div class="caixa-conteudo">
+                        <h3 class="destaque">Saúde Pública</h3>
+
+                        <img src="imagens/saude.jpg" alt="Imagem ampliada de Virus" width="100%">
+
+                        <p>O Ministério da Saúde lançou uma campanha nacional para promover a vacinação contra doenças sazonais, com o objetivo de aumentar a cobertura vacinal e proteger a população.</p>
+
+                        <a href="#">Leia mais!</a>
+                    </div>
+                </div>
+
+                <div class="caixa-mundo" role="region">
+                    <h2>Notícias Recentes</h2>
+                    <div class="caixa-conteudo">
+
+                        <ul id="lista-noticias" role="list">
+                            <li><a href="">
+                                <img src="imagens/cinema.jpg" width="80" alt="Placa de Hollywood">
+                                <h3>Cinema</h3>
+                                <p>Novos lançamentos prometem agitar as telonas.</p>
+                            </a></li>
+                        </ul>
+
+                        <ul id="lista-noticias" role="list">
+                            <li><a href="">
+                                <img src="imagens/moda.jpg" width="80" alt="Modelos desfilando em passarela">
+                                <h3>Moda</h3>
+                                <p>Tendências para a próxima temporada.</p>
+                            </a></li>
+                        </ul>
+
+                        <ul id="lista-noticias" role="list">
+                            <li><a href="">
+                                <img src="imagens/jogos.jpg" width="80" alt="Garoto segurando controle de videogame">
+                                <h3>Games</h3>
+                                <p>Lançamentos que estão conquistando os jogadores.</p>
+                            </a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="lateral" role="complementary" aria-labelledby="entrevistas-news">
+
+                <div class="caixa">
+                    <h2 id="entrevistas-news">Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul role="list">
+                            <li><a href="#">José Almeida</a></li>
+                            <li><a href="#">Felipe Silva</a></li>
+                            <li><a href="#">Renato Rodrigues</a></li>
+                            <li><a href="#">Mariana Costa</a></li>
+                            <li><a href="#">Ana Beatriz</a></li>
+                            <li><a href="#">Carla Dias</a></li>
+                            <li><a href="#">Lucas Moreira</a></li>
+                            <li><a href="#">Marcos Paulo</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>NEWS</h2>
+                    <div class="caixa-conteudo">
+
+                        <!-- Acessibilidade: formulário com labels -->
+                        <form role="form" aria-label="Cadastro de e-mail">
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div> 
+
+    <!-- Acessibilidade: rodapé identificado como contentinfo -->
+    <div id="container-rodape" style="clear: both;">
+        <footer role="contentinfo">
+            <div id="rodape">Copyright Fernada Fátima © 2025 Notícias Cidade
+            </div>
+        </footer>
+    </div>
+<script>
+    const btn = document.getElementById("btn-contraste");
+    const body = document.body;
+
+    // Carrega preferência salva
+    if (localStorage.getItem("contraste") === "on") {
+        body.classList.add("contraste");
+        btn.setAttribute("aria-pressed", "true");
+    }
+
+    btn.addEventListener("click", () => {
+        const ativo = body.classList.toggle("contraste");
+        btn.setAttribute("aria-pressed", ativo ? "true" : "false");
+
+        // Salvar preferência
+        localStorage.setItem("contraste", ativo ? "on" : "off");
+    });
+</script>
+
+</body>
+</html>

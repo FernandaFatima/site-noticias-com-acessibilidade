@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- Acessibilidade: garante boa visualização em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasil | Notícias Cidade</title>
+    <!-- Acessibilidade + SEO -->
+    <meta name="description" content="Últimas notícias do Brasil envolvendo política, economia, saúde, educação e atualidades.">
+    <meta name="author" content="Fernanda Fátima">
+    <meta name="keywords" content="brasil, notícias, política, economia, atualidades">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body id="duas-colunas" class="brasil">
+    <!-- Acessibilidade: permite salto direto ao conteúdo usando teclado -->
+    <a href="#conteudo" class="skip-link">Pular para o conteúdo principal</a>
+    <button id="btn-contraste" aria-pressed="false" role="switch">
+    Alto Contraste
+</button>
+
+    <div id="container">
+        <div id="topo" role="banner">
+            <h1 class="logo">Notícias Cidade</h1>
+            <!-- NAV com role e aria-label -->
+            <ul id="navegacao" role="navigation" aria-label="Menu principal">
+                <li class="primeiro"><a id="home" href="index.html">Home</a></li>
+                <li><a id="brasil" href="brasil.html">Brasil</a></li>
+                <li><a id="internacional" href="internacional.html">Internacional</a></li>
+                <li><a id="economia" href="economia.html">Economia</a></li>
+                <li><a id="saude" href="saude.html">Saúde</a></li>
+                <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
+                <li><a id="fotos" href="fotos.html">Fotos</a></li>
+            </ul>
+        </div>
+
+        <div id="conteudo" role="main">
+
+            <div id="primario">
+
+                <!-- Acessibilidade: adicionando ID para aria-labelledby -->
+                <div class="caixa" role="region" aria-labelledby="titulo-pacote-economico">
+                    <h2 id="titulo-pacote-economico">Brasil</h2>
+
+                    <div class="caixa-conteudo">
+                        <h3 class="destaque">Governo anuncia novo pacote econômico</h3>
+
+                        <!-- ALT descritivo -->
+                        <img src="imagens/brasil1.jpg" alt="Reunião ministerial durante anúncio do pacote econômico" class="foto-principal">
+
+                        <p class="mt-10">
+                            O governo federal apresentou nesta terça-feira um novo pacote de estímulos econômicos
+                            voltado para pequenas e médias empresas. A iniciativa promete reduzir impostos 
+                            e ampliar linhas de crédito.
+                        </p>
+
+                        <p class="mt-10">
+                            Segundo o Ministério da Economia, a medida pode gerar até 450 mil empregos nos próximos meses.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="caixa" role="region" aria-labelledby="titulo-ultimas-brasil">
+                    <h2 id="titulo-ultimas-brasil">Últimas do Brasil</h2>
+
+                    <div class="caixa-conteudo">
+                        <!-- Acessibilidade: UL com role list -->
+                        <ul id="lista-noticias" role="list">
+
+                            <li>
+                                <a href="#">
+                                    <img src="imagens/mundo.jpg" alt="Imagem representando educação" width="70">
+                                    <h3>Educação</h3>
+                                    <p>
+                                        As escolas públicas de diversas regiões do país receberam uma nova rodada 
+                                        de investimentos voltados para tecnologia, infraestrutura e capacitação de professores.
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="imagens/doutor.jpg" alt="Profissional de saúde segurando materiais médicos" width="70">
+                                    <h3>Saúde</h3>
+                                    <p>
+                                        A campanha nacional de vacinação começou oficialmente em todas as capitais do país, 
+                                        com foco na prevenção de doenças sazonais e no reforço imunológico da população.
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="imagens/cidade.jpg" alt="Ônibus em novo sistema de transporte urbano" width="70">
+                                    <h3>Transporte</h3>
+                                    <p>
+                                        Um novo sistema de ônibus foi inaugurado nas principais capitais do Sudeste, 
+                                        trazendo veículos mais modernos, integração tarifária e rotas otimizadas.
+                                    </p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="lateral" role="complementary">
+
+                <div class="caixa" role="region" aria-labelledby="titulo-acessados">
+                    <h2 id="titulo-acessados">Mais Acessados</h2>
+                    <div class="caixa-conteudo">
+                        <ul role="list">
+                            <li><a href="#">Eleições 2026</a></li>
+                            <li><a href="#">Reformas Tributárias</a></li>
+                            <li><a href="#">Programas Sociais</a></li>
+                            <li><a href="#">Meio Ambiente</a></li>
+                            <li><a href="#">Segurança Pública</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="caixa" role="region" aria-labelledby="titulo-newsletter">
+                    <h2 id="titulo-newsletter">Newsletter</h2>
+                    <div class="caixa-conteudo">
+
+                        <!-- Acessibilidade: label associado ao input -->
+                        <label for="email">Receba atualizações:</label>
+
+                        <input type="text" id="email" placeholder="Digite seu e-mail" aria-required="true">
+
+                        <!-- Botão com acessibilidade -->
+                        <input type="submit" class="submit" value="Enviar" aria-label="Enviar e-mail para newsletter">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer role="contentinfo">
+        <div id="rodape">Copyright Fernada Fátima © 2025 Notícias Cidade</div>
+    </footer>
+<script>
+    const btn = document.getElementById("btn-contraste");
+    const body = document.body;
+
+    // Carrega preferência salva
+    if (localStorage.getItem("contraste") === "on") {
+        body.classList.add("contraste");
+        btn.setAttribute("aria-pressed", "true");
+    }
+
+    btn.addEventListener("click", () => {
+        const ativo = body.classList.toggle("contraste");
+        btn.setAttribute("aria-pressed", ativo ? "true" : "false");
+
+        // Salvar preferência
+        localStorage.setItem("contraste", ativo ? "on" : "off");
+    });
+</script>
+
+</body>
+</html>
